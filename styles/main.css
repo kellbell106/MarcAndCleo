@@ -1,0 +1,172 @@
+
+/*		HEADER STYLES 		*/
+
+.header {
+	background: url(../assets/header_img.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 600px;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+	padding-top: 8%;
+}
+
+.header__title {
+	font-family: Raleway; 
+	font-size: 20px;
+	color: white;
+	font-style: bold;
+	text-align: center;
+	letter-spacing: 6px;
+	
+}
+
+.header__nav {
+	font-family: Raleway; 
+	font-size: 12px;
+	text-transform: uppercase;
+
+}
+
+.header__nav--about {
+	float: left;
+	padding: .5% 2% 0 10%;
+}
+
+.header__nav--lookbook {
+	float: left;
+	padding-top: .5%
+}
+
+.header__nav--log_in {
+	float: right;
+	padding-top: .5%
+}
+
+.header__nav--contact {
+	float: right;
+	padding: .5% 10% 0 2%;
+}
+
+a.head__link:link {
+	color: white;
+	text-decoration: none;
+}
+
+a.head__link:visited{
+	color: white;
+	text-decoration: none;
+}
+
+
+.button {
+	border: 2px solid white;
+	background-color: none;
+	color: white;
+	font-family: Raleway;
+	font-size: 15px;
+	font-style: bold;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 10%;
+	padding: 1.5%;
+	margin: 30% 44% 0 44%;
+}
+
+a.button_link:link {
+	color: white;
+	text-decoration: none;
+}
+
+a.button_link:visited {
+	color: white;
+	text-decoration: none;
+}
+
+/*		MIDSECTION STYLES 	*/
+
+
+.content {
+	padding: 12% 20% 12% 28%;
+	max-width: 40%;
+	font-family: didot;
+	font-size: 15px;
+	text-align: center;
+	line-height: 175%
+}
+
+.wrapper {
+	width: 100%;
+	/*margin: 0 15% 10% 0;*/
+	display: flex;
+	justify-content: center;
+}
+
+.img-test {
+	width: 80%;
+	height: 550px;
+	/*border: 1px solid black;*/
+	padding: 2rem 0;
+}
+
+
+.flexbox-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.test-margin {
+	margin:0 2rem 0 0;
+}
+
+/*img {
+	height: 75%;
+	margin: 4%;
+	width: 33.33333%;
+	min-height: 300px;
+}
+*/
+
+
+/*		FOOTER STYLES 	*/
+
+
+.footer__nav {
+	font-family: Raleway; 
+	font-size: 12px;
+	text-transform: uppercase;
+	min-width: 300px
+}
+
+.footer__nav--facebook {
+	float: left;
+	padding: 8% 4% 4% 35%;
+}
+
+.footer__nav--instagram {
+	float: left;
+	padding: 8% 4% 4% 0;
+}
+
+.footer__nav--pinterest {
+	float: left;
+	padding: 8% 4% 4% 0;
+}
+
+.footer__nav--twitter {
+	float: left;
+	padding: 8% 0 4% 0;
+}
+
+a.foot__link:link {
+	color: black;
+	text-decoration: none;
+}
+
+a.foot__link:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
