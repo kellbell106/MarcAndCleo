@@ -12,55 +12,47 @@
 	padding-top: 8%;
 }
 
-.header__title {
+.nav__bar {
+	font-family: Raleway; 
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.top-links {
+	margin:0 3rem 0 0;
+}
+
+a.top-links:link {
+	color: white;
+	text-decoration: none;
+}
+
+a.top-links:visited{
+	color: white;
+	text-decoration: none;
+}
+
+.nav__bar-left {
+	float: left;
+	padding: .5% 2% 0 5%;
+}
+
+.nav__bar-right {
+	float: right;
+	padding: .5% 5% 0 2%;
+}
+
+.title {
 	font-family: Raleway; 
 	font-size: 20px;
 	color: white;
 	font-style: bold;
-	text-align: center;
 	letter-spacing: 6px;
-	
+	display: flex;
+	justify-content: center;
 }
 
-.header__nav {
-	font-family: Raleway; 
-	font-size: 12px;
-	text-transform: uppercase;
-
-}
-
-.header__nav--about {
-	float: left;
-	padding: .5% 2% 0 10%;
-}
-
-.header__nav--lookbook {
-	float: left;
-	padding-top: .5%
-}
-
-.header__nav--log_in {
-	float: right;
-	padding-top: .5%
-}
-
-.header__nav--contact {
-	float: right;
-	padding: .5% 10% 0 2%;
-}
-
-a.head__link:link {
-	color: white;
-	text-decoration: none;
-}
-
-a.head__link:visited{
-	color: white;
-	text-decoration: none;
-}
-
-
-.button {
+.dm__button {
 	border: 2px solid white;
 	background-color: none;
 	color: white;
@@ -85,53 +77,42 @@ a.button_link:visited {
 	text-decoration: none;
 }
 
-/*		MIDSECTION STYLES 	*/
+/*		CONTENT STYLES 		*/
 
 
 .content {
 	padding: 12% 20% 12% 28%;
 	max-width: 40%;
+}
+
+.quote {
 	font-family: didot;
-	font-size: 15px;
+	font-size: 24px;
 	text-align: center;
 	line-height: 175%
 }
 
+.description {
+	font-family: didot;
+	font-size: 15px;
+	text-align: center;
+	line-height: 175%;
+	margin-top: 2rem;
+}
+
 .wrapper {
 	width: 100%;
-	/*margin: 0 15% 10% 0;*/
 	display: flex;
 	justify-content: center;
 }
 
-.img-test {
+.img {
 	width: 80%;
-	height: 550px;
-	/*border: 1px solid black;*/
-	padding: 2rem 0;
+	height: 30%;
+	padding: 8rem 0 4rem 0;
 }
 
-
-.flexbox-wrapper {
-	display: flex;
-	justify-content: center;
-}
-
-.test-margin {
-	margin:0 2rem 0 0;
-}
-
-/*img {
-	height: 75%;
-	margin: 4%;
-	width: 33.33333%;
-	min-height: 300px;
-}
-*/
-
-
-/*		FOOTER STYLES 	*/
-
+/*		FOOTER STYLES 		*/
 
 .footer__nav {
 	font-family: Raleway; 
@@ -140,24 +121,13 @@ a.button_link:visited {
 	min-width: 300px
 }
 
-.footer__nav--facebook {
-	float: left;
-	padding: 8% 4% 4% 35%;
+.flexbox-wrapper {
+	display: flex;
+	justify-content: center;
 }
 
-.footer__nav--instagram {
-	float: left;
-	padding: 8% 4% 4% 0;
-}
-
-.footer__nav--pinterest {
-	float: left;
-	padding: 8% 4% 4% 0;
-}
-
-.footer__nav--twitter {
-	float: left;
-	padding: 8% 0 4% 0;
+.spacing {
+	margin:0 3rem 4rem 0;
 }
 
 a.foot__link:link {

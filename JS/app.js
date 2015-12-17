@@ -1,4 +1,8 @@
 
 $('.js-click').on('click', function(){
-	window.location.href='contact.html';
+	window.location.href='start.html';
+});
+
+$('.js-upload').on('click', function(){
+	window.location.href='upload.html';
 });
