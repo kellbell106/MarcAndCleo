@@ -1,8 +1,17 @@
 
 $('.js-click').on('click', function(){
-	window.location.href='start.html';
+	window.location = $(this).href='start.html';
 });
 
+
 $('.js-upload').on('click', function(){
-	window.location.href='upload.html';
+	window.location = $(this).href='upload.html';
 });
+
+$('.js-click').hover(function() {
+    $(this).css('cursor','pointer');
+    });
+
+$('.js-upload').hover(function() {
+    $(this).css('cursor','pointer');
+    });
